@@ -1,5 +1,5 @@
 # nba_challenges_db
-SQLite Database of NBA challenge data for the 2019-20 season, and SQL queries that explore whether or not using a coach's challenge increases the likelihood of winning.
+SQLite Database of NBA challenge data for the 2019-20 season, and SQL queries that explore whether or not using a coach's challenge increases the likelihood of winning. I found that whether or not a coach's challenge is used does not have a statistically significant impact on teams' win percentage.
 
 Challenge data was found at: https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2020/02/Coachs-Challenge-reviews-2.pdf
 
