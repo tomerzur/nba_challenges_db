@@ -4,6 +4,8 @@ select * from challenges;
 
 select * from schedule;
 
+
+-- number of games won, lost where a team successfully or unsuccessfully challenged a call
 with schedule_winners as (
 select *, case when away_pts > home_pts then away else home end as winner_name from schedule),
 
@@ -20,6 +22,7 @@ select result, challenger_won_game, count(*) from challenge_all_data group by re
 
 
 
+-- win percentage when using a challenge vs when not using a challenge 
 with schedule_winners as (
 select *, case when away_pts > home_pts then away else home end as winner_name from schedule),
 
